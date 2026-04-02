@@ -1,0 +1,18 @@
+import math
+
+# a) Área del círculo con radio = 30
+radio = 30
+area_of_circle = math.pi * radio ** 2
+print("Área del círculo:", area_of_circle)
+
+# b) Circunferencia del círculo
+circum_of_circle = 2 * math.pi * radio
+print("Circunferencia del círculo:", circum_of_circle)
+
+# c) Radio ingresado por el usuario
+try:
+    radio_usuario = float(input("Ingresa el radio del círculo: "))
+    area_usuario = math.pi * radio_usuario ** 2
+    print("Área con radio ingresado:", area_usuario)
+except:
+    print("Error: Debes ingresar un número válido")
