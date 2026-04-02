@@ -2,7 +2,7 @@
 
 import math
 
-Variables
+# Variables
 
 nombre = "Ruben"
 apellido = "Vite"
