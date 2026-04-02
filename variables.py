@@ -1,4 +1,4 @@
-Día 2: 30 días de programación en Python
+# Día 2: 30 días de programación en Python
 
 import math
 
