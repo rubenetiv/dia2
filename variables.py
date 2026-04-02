@@ -4,13 +4,13 @@ import math
 
 Variables
 
-nombre = "Juan"
-apellido = "Pérez"
+nombre = "Ruben"
+apellido = "Vite"
 nombre_completo = nombre + " " + apellido
 pais = "México"
 ciudad = "CDMX"
-edad = 25
-anio = 2026
+edad = 48
+anio = 1977
 is_married = False
 is_true = True
 is_light_on = True
