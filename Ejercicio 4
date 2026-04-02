@@ -1,0 +1,44 @@
+# a) Iterar de 0 a 10
+print("De 0 a 10:")
+for i in range(11):
+    print(i)
+
+# b) Iterar de 10 a 0
+print("\nDe 10 a 0:")
+for i in range(10, -1, -1):
+    print(i)
+
+# c) Triángulo
+print("\nTriángulo:")
+for i in range(1, 8):
+    print("#" * i)
+
+# d) Cuadrado con ciclos anidados
+print("\nCuadrado:")
+for i in range(8):
+    for j in range(8):
+        print("#", end=" ")
+    print()
+
+# e) Tabla de cuadrados
+print("\nTabla de cuadrados:")
+for i in range(11):
+    print(f"{i} x {i} = {i*i}")
+
+# f) Recorrer lista
+print("\nLista:")
+lista = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask']
+for item in lista:
+    print(item)
+
+# g) Números pares de 0 a 100
+print("\nNúmeros pares:")
+for i in range(101):
+    if i % 2 == 0:
+        print(i)
+
+# h) Números impares de 0 a 100
+print("\nNúmeros impares:")
+for i in range(101):
+    if i % 2 != 0:
+        print(i)
