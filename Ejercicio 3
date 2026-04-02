@@ -1,1 +1,60 @@
+# a) Diccionario vacío
+perro = {}
 
+# b) Agregar datos
+perro["nombre"] = "Firulais"
+perro["color"] = "café"
+perro["raza"] = "Labrador"
+perro["patas"] = 4
+perro["edad"] = 5
+
+print("Diccionario perro:", perro)
+
+# c) Diccionario estudiante
+estudiante = {
+    "nombre": "Ruben",
+    "apellido": "Vite",
+    "sexo": "M",
+    "edad": 25,
+    "estado_civil": "soltero",
+    "habilidades": ["Python", "SQL"],
+    "pais": "México",
+    "ciudad": "CDMX",
+    "direccion": "Calle 123"
+}
+
+print("Diccionario estudiante:", estudiante)
+
+# d) Longitud del diccionario
+print("Longitud del estudiante:", len(estudiante))
+
+# e) Valor de habilidades y tipo
+habilidades = estudiante["habilidades"]
+print("Habilidades:", habilidades)
+print("Tipo:", type(habilidades))
+
+# f) Agregar habilidades
+estudiante["habilidades"].append("Java")
+estudiante["habilidades"].append("C++")
+
+print("Habilidades actualizadas:", estudiante["habilidades"])
+
+# g) Claves como lista
+claves = list(estudiante.keys())
+print("Claves:", claves)
+
+# h) Valores como lista
+valores = list(estudiante.values())
+print("Valores:", valores)
+
+# i) Convertir a lista de tuplas
+items = list(estudiante.items())
+print("Items (tuplas):", items)
+
+# j) Eliminar un elemento
+estudiante.pop("direccion")
+print("Después de eliminar dirección:", estudiante)
+
+# k) Eliminar un diccionario
+del perro
+print("Diccionario 'perro' eliminado")
