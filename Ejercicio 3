@@ -2,11 +2,11 @@
 perro = {}
 
 # b) Agregar datos
-perro["nombre"] = "Firulais"
+perro["nombre"] = "Max"
 perro["color"] = "café"
-perro["raza"] = "Labrador"
+perro["raza"] = "Pug"
 perro["patas"] = 4
-perro["edad"] = 5
+perro["edad"] = 6
 
 print("Diccionario perro:", perro)
 
@@ -15,12 +15,12 @@ estudiante = {
     "nombre": "Ruben",
     "apellido": "Vite",
     "sexo": "M",
-    "edad": 25,
-    "estado_civil": "soltero",
+    "edad": 48,
+    "estado_civil": "casado",
     "habilidades": ["Python", "SQL"],
     "pais": "México",
     "ciudad": "CDMX",
-    "direccion": "Calle 123"
+    "direccion": "Vicente Guerrero 17"
 }
 
 print("Diccionario estudiante:", estudiante)
