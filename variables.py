@@ -1,28 +1,29 @@
-# Día 2: 30 días de programación en Python
-nombre = "Ruben"
-apellido = "Vite"
+Día 2: 30 días de programación en Python
+
+import math
+
+Variables
+
+nombre = "Juan"
+apellido = "Pérez"
 nombre_completo = nombre + " " + apellido
 pais = "México"
 ciudad = "CDMX"
-edad = 48
-anio = 1977
+edad = 25
+anio = 2026
 is_married = False
 is_true = True
 is_light_on = True
 
-# Longitud del nombre
-print("Longitud del nombre:", len(nombre))
+print("Longitud nombre:", len(nombre))
 
-# Operaciones
 num_one = 5
 num_two = 4
 
-total = num_one + num_two
-diff = num_one - num_two
-producto = num_one * num_two
-division = num_one / num_two
-resto = num_two % num_one
-exp = num_one ** num_two
-floor_division = num_one // num_two
-
-print(total, diff, producto, division, resto, exp, floor_division)
+print(num_one + num_two)
+print(num_one - num_two)
+print(num_one * num_two)
+print(num_one / num_two)
+print(num_two % num_one)
+print(num_one ** num_two)
+print(num_one // num_two)
